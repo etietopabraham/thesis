@@ -1,0 +1,49 @@
+# Preprocessing tools
+# Summarize
+nlp == 0.4.0 # Natural language processing tool
+
+# Encode nlp processed job descriptions, and titles By default
+# Input text longer than 256 word pieces is truncated.
+sentence-transformers == 2.2.2 
+
+scikit-learn == 1.3.2
+scipy == 1.11.4
+
+matplotlib == 3.8.2
+more-itertools == 10.1.0
+
+ipython == 8.18.1
+
+nltk == 3.8.1
+
+transformers == 4.36.1
+
+transformers[sentencepiece]
+
+datasets == 2.15.0
+
+sacrebleu == 2.4.0
+
+rouge-score == 0.1.2
+
+py7zr == 0.20.8
+
+pandas == 2.1.4
+
+tqdm == 4.66.1
+
+PyYAML == 6.0.1
+
+torch == 2.1.2
+
+notebook == 7.0.6
+
+# Others
+boto3 == 1.34.2
+mypy-boto3-s3 == 1.34.0
+ensure == 1.0.4
+fastapi == 0.105.0
+uvicorn == 0.24.0.post1
+Jinja2 == 3.1.2
+
+-e .
